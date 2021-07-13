@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>CaioLab Videos</title>
+    <title>Skerry Videos</title>
   </head>
   <body>
 
@@ -32,7 +32,7 @@
 
     <?php
       $search = $database->query("SELECT * FROM videos order by id");
-      if(!search){
+      if(!$search){
         echo "Error to search";
       } else{
         if($search->num_rows == 0){
@@ -47,7 +47,7 @@
     <video src='videos/$reg->video.mp4#t=60' class='card-img-top'></video>
     <div class='card-body'>
       <h5 class='card-title'>$reg->title</h5>
-      <a href='watch.php?v=$reg->id' class='btn btn-primary'>View video</a>
+      <a href='watch.php?v=$reg->id' class='btn btn-outline-primary'>View video</a>
     </div>
     <div class='card-footer'>
       <small class='text-muted'>published on: $reg->date</small>
@@ -60,6 +60,7 @@
         }
       }
     }
+
 ?>
 
   </div>
