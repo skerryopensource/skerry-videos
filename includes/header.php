@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" style="color: #007BFF;" href="#">CaioLab Videos</a>
+  <a class="navbar-brand" style="color: #007BFF;" href="#">Skerry Videos</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -12,3 +12,5 @@
 </div>
 <a class="btn btn-outline-primary my-2 my-sm-0" href="#">Login</a>
 </nav>
+
+<!-- #4B0082 main color -->
