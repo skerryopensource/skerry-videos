@@ -36,7 +36,7 @@
         $description = $_POST['description'];
         $tmp = $_FILES['file']['tmp_name'];
 
-        move_uploaded_file($tmp, "videos/".$name);
+        move_uploaded_file($tmp, "videos/" . $name);
 
         $sql = "INSERT INTO videos (video,title,text,date) VALUES ('$name','$title','$description','$date')";
 
