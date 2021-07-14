@@ -54,7 +54,7 @@ CREATE TABLE `videos` (
 --
 
 INSERT INTO `videos` (`id`, `video`, `title`, `text`, `date`) VALUES
-(1, 'asenha', 'A senha Cesar Leitao', 'esse clip e do meu pai e teste sobre funcionamento do skerry video!', '07/14/2021'),
+(1, 'asenha', 'A senha Cesar Leitao', 'esse clip e do meu pai e teste sobre funcionamento do skerry video!', '07/14/2021');
 
 --
 -- Indexes for dumped tables
