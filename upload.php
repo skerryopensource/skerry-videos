@@ -32,7 +32,7 @@
     if(isset($_POST['upload'])) {
         $name = $_FILES['file']['name'];
         $title = $_POST['title'];
-        $date = "20/20/2020";
+        $date = "without support";
         $description = $_POST['description'];
         $tmp = $_FILES['file']['tmp_name'];
 
