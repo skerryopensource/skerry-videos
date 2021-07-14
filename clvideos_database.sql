@@ -54,10 +54,7 @@ CREATE TABLE `videos` (
 --
 
 INSERT INTO `videos` (`id`, `video`, `title`, `text`, `date`) VALUES
-(1, 'video', 'Beautiful Night Clipe Completo', 'Clipe gravado pelo musico mccartney, um ex-beattles, muito bom!', '12/28/2019'),
-(2, 'video2', 'Mr. Blue Sky - Clipe de musico do ELO', 'Clipe do ELO sobre a musica Mr. Blue Sky em formado de desenho animado', '12/27/2019'),
-(3, 'videoplayback', 'My hero academia Opening', 'Anime opening of my hero academia. :D', '12/18/2019'),
-(4, 'kekkaisensen', 'Kekkai Sensen Opening', 'Kekkai Sensen is a anime!', '12/28/2019');
+(1, 'asenha', 'A senha Cesar Leitao', 'esse clip e do meu pai e teste sobre funcionamento do skerry video!', '07/14/2021'),
 
 --
 -- Indexes for dumped tables
