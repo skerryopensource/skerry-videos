@@ -38,7 +38,7 @@
         <div class='card mb-3 shadow'>
         <div class='row no-gutters'>
           <div class='col-sm-5'>
-          <video controls autoplay src='videos/$reg->video.mp4' class='card-img'></video>
+          <video controls autoplay src='videos/$reg->video' class='card-img'></video>
           </div>
           <div class='col-sm-5'>
             <div class='card-body'>
